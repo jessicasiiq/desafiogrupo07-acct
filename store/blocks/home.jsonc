@@ -1,15 +1,27 @@
 {
-  "store.home": { 
+  "store.home": {
+    //trecho à copiar/alterar
     "blocks": [
-      "rich-text"
+      "flex-layout.row#banner",
+      "flex-layout.row#projetando",
+      "slider-layout#top",
+      "flex-layout.row#why",
+      "flex-layout.row#reasons",
+      "search-result-layout.customQuery#home"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
+  //parte de test da loja
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#lp",
+      "search-result-layout.mobile#lp"
+    ]
   }
 }

@@ -1,0 +1,508 @@
+{
+    //banner sobre nos
+    "flex-layout.row#banner": {
+        "props": {
+            "verticalAlign": "center",
+            "blockClass": "banner"
+        },
+        "children": [
+            "rich-text#sobrenos"
+        ]
+    },
+    "rich-text#sobrenos": {
+        "props": {
+            "text": "SOBRE NÓS_",
+            "textAlignment": "CENTER",
+            "font": "t-heading-2",
+            "blockClass": "sobre-nos"
+        }
+    },
+    //Projetando o futuro do comercio digital
+    "flex-layout.row#projetando": {
+        "props": {
+            "blockClass": "projetandofuturo"
+        },
+        "children": [
+            "rich-text#projetando1",
+            "rich-text#projetando2"
+        ]
+    },
+    "rich-text#projetando1": {
+        "props": {
+            "text": "Projetando o",
+            "textAlignment": "CENTER",
+            "textPosition": "RIGHT",
+            "font": "t-heading-2",
+            "blockClass": "projetando"
+        }
+    },
+    "rich-text#projetando2": {
+        "props": {
+            "text": "&nbsp;futuro do comércio digital",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "font": "t-heading-2",
+            "blockClass": "futuro"
+        }
+    },
+    //sliders
+    "slider-layout#top": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "blockClass": "slidertop"
+        },
+        "children": [
+            "flex-layout.row#slider1",
+            "flex-layout.row#slider2"
+        ]
+    },
+    //1 slider 1 coluna de texto 1 coluna com imagem
+    "flex-layout.row#slider1": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#slider1-col1",
+            "flex-layout.col#slider1-col2"
+        ]
+    },
+    //insere as linhas de texto na primeira coluna
+    "flex-layout.col#slider1-col1": {
+        "props": {
+            "horizontalAlign": "right",
+            "blockClass": "coltextslide1"
+        },
+        "children": [
+            "flex-layout.row#text1",
+            "flex-layout.row#text2",
+            "flex-layout.row#text3",
+            "flex-layout.row#text4"
+        ]
+    },
+    "flex-layout.row#text1": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "marginTop": 5
+        },
+        "children": [
+            "rich-text#valores1"
+        ]
+    },
+    //texto 1
+    "rich-text#valores1": {
+        "props": {
+            "text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia.",
+            "textPosition": "LEFT",
+            "font": "t-heading-6"
+        }
+    },
+    "flex-layout.row#text2": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#valores2"
+        ]
+    },
+    //texto 2
+    "rich-text#valores2": {
+        "props": {
+            "text": "A ACCT passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes.",
+            "textPosition": "LEFT",
+            "font": "t-heading-6"
+        }
+    },
+    "flex-layout.row#text3": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#valores3"
+        ]
+    },
+    //texto 3
+    "rich-text#valores3": {
+        "props": {
+            "text": "Nós também temos o orgulho de dizer que a ACCT esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo.",
+            "textPosition": "LEFT",
+            "font": "t-heading-6"
+        }
+    },
+    "flex-layout.row#text4": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "marginBotton": 10
+        },
+        "children": [
+            "rich-text#valores4"
+        ]
+    },
+    //texto 4
+    "rich-text#valores4": {
+        "props": {
+            "text": "Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento",
+            "textPosition": "LEFT",
+            "font": "t-heading-6"
+        }
+    },
+    //insere imagem da segunda coluna
+    "flex-layout.col#slider1-col2": {
+        "props": {
+            "horizontalAlign": "right",
+            "blockClass":"imageslide1"
+        },
+        "children": [
+            "image#slide1"
+        ]
+    },
+    //imagem
+    "image#slide1": {
+        "props": {
+            "src": "assets/img-about-us.jpg",
+            "alt": "img-about-us",
+            "maxWidth": "100%",
+            "blockClass": "imagem-about-us"
+        }
+    },
+    //2 slider 1 coluna de texto 1 coluna com imagem
+    "flex-layout.row#slider2": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#slider1-col1",
+            "flex-layout.col#slider1-col2"
+        ]
+    },
+    //insere as linhas de texto da primeira coluna
+    "flex-layout.col#slider2-col1": {
+        "props": {
+            "horizontalAlign": "left"
+        },
+        "children": [
+            "flex-layout.row#text1",
+            "flex-layout.row#text2",
+            "flex-layout.row#text3",
+            "flex-layout.row#text4"
+        ]
+    },
+    "flex-layout.row#s2-text1": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#valores1"
+        ]
+    },
+    "flex-layout.row#s2-text2": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#valores2"
+        ]
+    },
+    "flex-layout.row#s2-text3": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#valores3"
+        ]
+    },
+    "flex-layout.row#s2-text4": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#valores4"
+        ]
+    },
+    //insere imagem da segunda coluna
+    "flex-layout.col#slider2-col2": {
+        "props": {
+            "horizontalAlign": "rigth"
+        },
+        "children": [
+            "image#s2"
+        ]
+    },
+    //imagem
+    "image#s2": {
+        "props": {
+            "src": "assets/img-about-us.jpg",
+            "alt": "slider-home-technology",
+            "maxWidth": "100%",
+            "blockClass": "imagem-about-us"
+        }
+    },
+    //bloco da pergunta
+    "flex-layout.row#why": {
+        "props": {
+            "marginTop": 10
+        },
+        "children": [
+            "rich-text#why"
+        ]
+    },
+    "rich-text#why": {
+        "props": {
+            "text": "Por que a ACCT?",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-3",
+            "blockClass": "why"
+        }
+    },
+    //bloco de imagems e textos de resposta
+    "flex-layout.row#reasons": {
+        "props": {
+            "blockClass": "reasons"
+        },
+        "children": [
+            "flex-layout.col#1",
+            "flex-layout.col#2",
+            "flex-layout.col#3",
+            "flex-layout.col#4",
+            "flex-layout.col#5"
+        ]
+    },
+    "flex-layout.col#1": {
+        "children": [
+            "flex-layout.row#why-image1",
+            "flex-layout.row#why-text1"
+        ]
+    },
+    "flex-layout.col#2": {
+        "children": [
+            "flex-layout.row#why-image2",
+            "flex-layout.row#why-text2"
+        ]
+    },
+    "flex-layout.col#3": {
+        "children": [
+            "flex-layout.row#why-image3",
+            "flex-layout.row#why-text3"
+        ]
+    },
+    "flex-layout.col#4": {
+        "children": [
+            "flex-layout.row#why-image4",
+            "flex-layout.row#why-text4"
+        ]
+    },
+    "flex-layout.col#5": {
+        "children": [
+            "flex-layout.row#why-image5",
+            "flex-layout.row#why-text5"
+        ]
+    },
+    //conteudo das imagens e textos
+    //col 1
+    "flex-layout.row#why-image1": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#col1"
+        ]
+    },
+    "image#col1": {
+        "props": {
+            "src": "assets/icon_dashboard.png",
+            "alt": "",
+            "maxWidth": "20%"
+        }
+    },
+    "flex-layout.row#why-text1": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#col1"
+        ]
+    },
+    "rich-text#col1": {
+        "props": {
+            "text": "Engenharia de Dados de Alta Complexidade",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-5"
+        }
+    },
+    //col 2
+    "flex-layout.row#why-image2": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#col2"
+        ]
+    },
+    "image#col2": {
+        "props": {
+            "src": "assets/icon_development.png",
+            "alt": "",
+            "maxWidth": "20%"
+        }
+    },
+    "flex-layout.row#why-text2": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#col2"
+        ]
+    },
+    "rich-text#col2": {
+        "props": {
+            "text": "Habilidades Técnicas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-5"
+        }
+    },
+    //col 3
+    "flex-layout.row#why-image3": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#col3"
+        ]
+    },
+    "image#col3": {
+        "props": {
+            "src": "assets/icon_integration.png",
+            "alt": "",
+            "maxWidth": "20%"
+        }
+    },
+    "flex-layout.row#why-text3": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#col3"
+        ]
+    },
+    "rich-text#col3": {
+        "props": {
+            "text": "Líder de Mercado em Implementações VTEX IO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-5"
+        }
+    },
+    //col 4
+    "flex-layout.row#why-image4": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#col4"
+        ]
+    },
+    "image#col4": {
+        "props": {
+            "src": "assets/icon_customer-service.png",
+            "alt": "",
+            "maxWidth": "20%"
+        }
+    },
+    "flex-layout.row#why-text4": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#col4"
+        ]
+    },
+    "rich-text#col4": {
+        "props": {
+            "text": "Excelente Suporte ao Cliente",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-5"
+        }
+    },
+    //col 5
+    "flex-layout.row#why-image5": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#col5"
+        ]
+    },
+    "image#col5": {
+        "props": {
+            "src": "assets/icon_shield.png",
+            "alt": "",
+            "maxWidth": "20%"
+        }
+    },
+    "flex-layout.row#why-text5": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#col5"
+        ]
+    },
+    "rich-text#col5": {
+        "props": {
+            "text": "Segurança e Confiabilidade",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-5"
+        }
+    }
+}

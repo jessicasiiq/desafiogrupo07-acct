@@ -1,0 +1,24 @@
+.flexRow{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flexCol{
+    background-color: white;
+}
+
+.flexRow--projetandofuturo{
+    margin-right: 20%;
+}
+
+.flexRow--banner{
+    background-image: url("assets/cover-about-us.jpg");
+    height: 25vh;
+}
+
+.flexColChild--imageslide1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

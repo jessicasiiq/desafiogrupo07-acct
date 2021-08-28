@@ -1,0 +1,70 @@
+/*
+    Customização dos títulos; ex.: "Trusted by_" e "Time_"
+*/
+.wrapper--subtitle{
+    font-size: 2rem;
+    color: #040404;
+    margin: 0.75rem 0 1.5rem 0;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+/*
+    Customização da legenda, aquela frase após o "Time_" na pagina "Sobre nós"
+*/
+.wrapper--legenda{
+    margin: 1.5rem 0;
+    font-family: "Open Sans" !important;
+    font-weight: 500;
+    color: #1d1d1d;
+    font-size: 17px;
+    text-align: center;
+    padding: 25px;
+}
+
+/*
+    Os títulos, geralmente, eram acompanhados por um _ amarelo. Estes underlines estavam em negrito (markdown), ser amarelo era uma atribuição do negrito (tanto que é possível identificar isso na "legenda" abaixo do "Time_" onde tem uma parte em negrito && amarelo).
+*/
+.strong{
+    color: #fcc200;
+}
+
+/*
+    Customização do paragraph geral
+*/
+.paragraph{
+    text-align: center;
+    align-items: center;
+}
+/*
+    Customização do paragraph dos títulos; ex.: "Trusted by_"
+*/
+.paragraph--subtitle{
+    font-family: "Roboto" !important;
+}
+
+/*
+    Customização do nome de cada colaborador no slide da página "Sobre nós"
+*/
+.paragraph--nameColab{
+    font-family: "Roboto" !important;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+/*
+    Customização da função de cada colaborador no slide da página "Sobre nós"
+*/
+.paragraph--functionColab{
+    font-family: "Roboto" !important;
+    font-size: 13px;
+    flex-wrap: nowrap; 
+}
+
+/*
+    Customização container de texto
+*/
+.container{
+    max-height: 50px !important;
+}

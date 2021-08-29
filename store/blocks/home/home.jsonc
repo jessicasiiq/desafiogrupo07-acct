@@ -1,16 +1,21 @@
 {
-  "store.home": {
-    //trecho à copiar/alterar
+  "store.home#home": {
     "blocks": [
-      "flex-layout.row#banner",
-      "flex-layout.row#projetando",
-      "slider-layout#top",
-      "flex-layout.row#why",
-      "flex-layout.row#reasons",
+      "slider-layout#home",
+      "flex-layout.row#buscamoslideranca",
+      "flex-layout.row#assunto",
+      "flex-layout.row#saibamais",
+      //trustedby
+      "flex-layout.row#trustedby",
+      "flex-layout.row#Icons1",
+      "flex-layout.row#Icons2",
+      //loja
       "search-result-layout.customQuery#home"
     ]
   },
-  //parte de test da loja
+  /*
+    parte de test da loja
+  */
   "search-result-layout.customQuery#home": {
     "props": {
       "querySchema": {

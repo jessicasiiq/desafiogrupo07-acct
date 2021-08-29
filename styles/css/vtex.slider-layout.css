@@ -1,28 +1,24 @@
-.sliderLayoutContainer{
-    padding: 100px;
-    width: 80%;
-}
-
-.slideChildrenContainer{
-    background-color: #f0f0f0;
-    width: 100%;
-    height: 100%;
-}
-
+/*
+    Posiciona a paginação dots
+*/
 .paginationDotsContainer{
     bottom: -15px;
 }
 
-.sliderArrows{
-    color: gold;
-    bottom:-40px;
-    position: absolute;
+/*
+    COMEÇO CUSTOMIZAÇÃO SLIDER
+*/
+.slide{
+    height: 300px;    
+    margin: 50px 0px;  
+}
+.caretIcon{
+    margin: 0 30px;
 }
 
-.sliderRightArrow{
-    left: 54%;
+.sliderTrack{
+    flex-basis: 80%
 }
-
-.sliderLeftArrow{
-    left: 44%;
-}
+/*
+    FIM CUSTOMIZAÇÃO SLIDER
+*/

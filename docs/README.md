@@ -1,1 +1,1 @@
-#Parte do trabalho do Grupo 07, page Sobre ACCT ->> slider-layout.jsonc e .css / home
+#Parte do trabalho do Grupo 07, tema ACCT 

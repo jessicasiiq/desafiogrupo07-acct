@@ -18,7 +18,8 @@
             "autoplay": {
                 "timeout": 5000,
                 "stopOnHover": true
-            }
+            },
+            "showPaginationDots": "never" //não apresenta os pontos de navegação do slide
         }
     },
     "info-card#1": {

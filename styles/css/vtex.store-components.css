@@ -5,10 +5,12 @@
     text-decoration-color: gold;
 }
 
+/*
+    Edição da fonte do slider da home
+*/
 .infoCardHeadline{
-    color: #ffffff;
+    color: #fcc200;
     font-family: 'Open Sans';
-    font-size: 25px;
 }
 
 /*

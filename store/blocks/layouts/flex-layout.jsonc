@@ -44,7 +44,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
-      "text": "Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um \n aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário \n às empresas na era digital.",
+      "text": "Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.",
       "textColor": "c-on-disabled",
       "font": "t-heading-6",
       "blockClass": "assunto"

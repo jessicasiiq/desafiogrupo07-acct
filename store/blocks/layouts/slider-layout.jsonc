@@ -275,7 +275,8 @@
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "arrowSize": 25,
-            "blockClass": "slidersValores"
+            "blockClass": "slidersValores",
+            "showPaginationDots": "never" //não apresenta os pontos de navegação do slide
         },
         "children": [
             "flex-layout.row#slider1",

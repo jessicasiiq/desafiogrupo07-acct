@@ -24,16 +24,6 @@
     height: 25vh;
 }
 
-/*
-    slide valores
-*/
-.flexRow--slidersValores{
-    margin: 200px !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-}
 .flexCol--somos{
     display: flex;
     align-items: center;

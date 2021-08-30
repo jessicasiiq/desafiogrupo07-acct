@@ -1,3 +1,8 @@
+.styledLinkContent{
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
 .styledLinkContent:hover{
     color: gold;
 }

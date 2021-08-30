@@ -1,0 +1,13 @@
+.styledLinkContent:hover{
+    color: gold;
+}
+
+.menuContainer--sobre{
+    padding-top: 120px;
+    padding-left: 420px;
+}
+
+.menuContainer--saibamais{
+    align-items: center;
+    justify-content: center;
+}

@@ -76,6 +76,7 @@
   },
   "menu-item#maissobre": {
     "props": {
+      "blockClass":"saibamais",
       "id": "menu-item-maissobre",
       "type": "custom",
       "highlight": true,
@@ -142,7 +143,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass":"slidersValores"
     },
     "children": [
       "flex-layout.col#slider1-col1",
@@ -153,6 +155,7 @@
   "flex-layout.col#slider1-col1": {
     "props": {
       "horizontalAlign": "left",
+      "verticalAlign": "CENTER",
       "blockClass": "somos"
     },
     "children": [
@@ -166,7 +169,6 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "marginTop": 5,
       "blockClass": "somos"
     },
     "children": [
@@ -192,13 +194,13 @@
       "image#about-us"
     ]
   },
-  //imagem
+  //imagem 1
   "image#about-us": {
     "props": {
       "src": "assets/img-about-us.jpg",
       "alt": "img-about-us",
-      "maxWidth": "100%",
-      "blockClass": "imagem-about-us"
+      "maxWidth": "50%",
+      "blockClass": "imageValores"
     }
   },
   //2 slider 1 coluna de texto 1 coluna com imagem
@@ -209,7 +211,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "bemvindo"
+      "blockClass": "slidersValores"
     },
     "children": [
       "flex-layout.col#slider2-col1",
@@ -229,11 +231,10 @@
   "flex-layout.row#bemvindo": {
     "props": {
       "horizontalAlign": "left",
-      "verticalAlign": "center",
+      "verticalAlign": "top",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "marginBotton": 10,
       "blockClass": "bemvindo"
     },
     "children": [
@@ -243,9 +244,9 @@
   //texto slide 2
   "rich-text#slide2": {
     "props": {
-      "text": "*BEM-VINDO! CONHEÇA MAIS A GENTE E A NOSSA CULTURA*\nSomos a ACCT Consulting & Technology, empresa de desenvolvimento de software com foco em projetos transnacionais de tecnologia.\nCom sede em Atibaia,no estado de São Paulo, contamos também com escritórios nos EUA e na Europa.\nNossa cultura é pautada pela crença em equipes diversas que trazem resultados inovadores, mais ricos e que impactam diretamente na qualidade de todas entregas, com diferentes opiniões e pontos de vista diversos.\nNos comprometemos em proporcionar oportunidades iguais para todas as pessoas garantindo que não haja distinção por questões de ordem racial,identidade de gênero, orientação sexual, etnia,origem, deficiência, idade, religião ou qualquer outro aspecto da aparência ou do histórico.\nAssim, buscamos juntos, oportunidades e iniciativas que possam tornar nossa empresa cada vez mais diversa, plural e inclusiva.\n Queremos aproveitar as diferenças para construir juntos histórias memoráveis, com foco no processo contínuo de inovação e de construção para uma cultura mais diversa e inclusiva.\n**Nossos valores: Respeito, Responsabilidade, Agilidade**",
+      "text": "**BEM-VINDO! CONHEÇA MAIS A GENTE E A NOSSA CULTURA**\nSomos a ACCT Consulting & Technology, empresa de desenvolvimento de software com foco em projetos transnacionais de tecnologia.\nCom sede em Atibaia,no estado de São Paulo, contamos também com escritórios nos EUA e na Europa.\nNossa cultura é pautada pela crença em equipes diversas que trazem resultados inovadores, mais ricos e que impactam diretamente na qualidade de todas entregas, com diferentes opiniões e pontos de vista diversos.\nNos comprometemos em proporcionar oportunidades iguais para todas as pessoas garantindo que não haja distinção por questões de ordem racial,identidade de gênero, orientação sexual, etnia,origem, deficiência, idade, religião ou qualquer outro aspecto da aparência ou do histórico.\nAssim, buscamos juntos, oportunidades e iniciativas que possam tornar nossa empresa cada vez mais diversa, plural e inclusiva.\n Queremos aproveitar as diferenças para construir juntos histórias memoráveis, com foco no processo contínuo de inovação e de construção para uma cultura mais diversa e inclusiva.\n**Nossos valores: Respeito, Responsabilidade, Agilidade**",
       "textPosition": "LEFT",
-      "font": "t-heading-6"
+      "blockClass":"bemvindo"
     }
   },
   //insere imagem da segunda coluna no slide 2
@@ -258,19 +259,286 @@
       "image#institutional"
     ]
   },
-  //imagem do slide 2
+  //imagem 2
   "image#institutional": {
+    "props": {
+      "src": "assets/tech-workspace.jpg",
+      "alt": "tech-workspace",
+      "maxWidth": "100%",
+      "blockClass": "imageValores"
+    }
+  },
+  //3 slider 1 coluna de texto 1 coluna com imagem
+  "flex-layout.row#slider3": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "slidersValores"
+    },
+    "children": [
+      "flex-layout.col#slider3-col1",
+      "flex-layout.col#slider3-col2"
+    ]
+  },
+  //insere as linhas de texto da primeira coluna
+  "flex-layout.col#slider3-col1": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "respeito"
+    },
+    "children": [
+      "flex-layout.row#respeito"
+    ]
+  },
+  "flex-layout.row#respeito": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "respeito"
+    },
+    "children": [
+      "rich-text#slide3"
+    ]
+  },
+  //texto slide 3
+  "rich-text#slide3": {
+    "props": {
+      "text": "**Respeito**\n* É a base para todo relacionamento, seja com o outro, com o cliente ou com o fornecedor.\n* É saber respeitar a opinião dada sobre um assunto, é saber o limite e compreender a situação de cada um. É respeitar as decisões.\n* É se colocar no lugar do outro, é tratar o próximo como gostaria de ser tratado.\n* É não ter preconceito.",
+      "textPosition": "LEFT",
+      "font": "t-heading-6",
+      "blockClass": "respeito"
+    }
+  },
+  //insere imagem da segunda coluna no slide 3
+  "flex-layout.col#slider3-col2": {
+    "props": {
+      "horizontalAlign": "rigth",
+      "blockClass": "respeito"
+    },
+    "children": [
+      "image#slide3"
+    ]
+  },
+  //imagem 3
+  "image#slide3": {
     "props": {
       "src": "assets/institutionalImage.png",
       "alt": "institutional Image",
       "maxWidth": "100%",
-      "blockClass": "image-institutional"
+      "blockClass": "imageValores"
+    }
+  },
+  //4 slider 1 coluna de texto 1 coluna com imagem
+  "flex-layout.row#slider4": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass":"slidersValores"
+    },
+    "children": [
+      "flex-layout.col#slider4-col1",
+      "flex-layout.col#slider4-col2"
+    ]
+  },
+  //insere as linhas de texto na primeira coluna
+  "flex-layout.col#slider4-col1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "CENTER",
+      "blockClass": "responsabilidade"
+    },
+    "children": [
+      "flex-layout.row#responsabilidade"
+    ]
+  },
+  "flex-layout.row#responsabilidade": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "responsabilidade"
+    },
+    "children": [
+      "rich-text#responsabilidade"
+    ]
+  },
+  //texto responsabilidade
+  "rich-text#responsabilidade": {
+    "props": {
+      "text": "**Responsabilidade**\n* É muito além do que apenas fazer a entrega de um projeto no prazo.\n* É cuidar do seu squad, é garantir uma boa comunicação e ter o total entendimento do outro, é dar opinião, é não permitir que fique algo inacabado, é saber a hora de dizer sim e principalmente não. ",
+      "textPosition": "LEFT",
+      "font": "t-heading-6",
+      "blockClass": "responsabilidade"
+    }
+  },
+  //insere imagem da segunda coluna
+  "flex-layout.col#slider4-col2": {
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "responsabilidade"
+    },
+    "children": [
+      "image#responsabilidade"
+    ]
+  },
+  //imagem 4
+  "image#responsabilidade": {
+    "props": {
+      "src": "assets/computers2.png",
+      "alt": "computers2",
+      "maxWidth": "100%",
+      "blockClass": "imageValores"
+    }
+  },
+  //5 slider 1 coluna de texto 1 coluna com imagem
+  "flex-layout.row#slider5": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "slidersValores"
+    },
+    "children": [
+      "flex-layout.col#slider5-col1",
+      "flex-layout.col#slider5-col2"
+    ]
+  },
+  //insere as linhas de texto na primeira coluna
+  "flex-layout.col#slider5-col1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "CENTER",
+      "blockClass": "agilidade"
+    },
+    "children": [
+      "flex-layout.row#agilidade"
+    ]
+  },
+  "flex-layout.row#agilidade": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "agilidade"
+    },
+    "children": [
+      "rich-text#agilidade"
+    ]
+  },
+  //texto agilidade
+  "rich-text#agilidade": {
+    "props": {
+      "text": "**Agilidade**\n* Nos baseamos no Manifesto Ágil. Temos que ter claro que agilidade não é velocidade.\n* É levar para si que processos e ferramentas garantem o trabalho organizado e otimizado, mas é primordial que cada um tenha competência e trabalhe de forma responsável e eficiente.\n* É ter como prioridade satisfazer o cliente e para isso, deve-se entender a necessidade do projeto para que todos busquem o mesmo objetivo.",
+      "textPosition": "LEFT",
+      "font": "t-heading-6",
+      "blockClass": "agilidade"
+    }
+  },
+  //insere imagem da segunda coluna
+  "flex-layout.col#slider5-col2": {
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "agilidade"
+    },
+    "children": [
+      "image#agilidade"
+    ]
+  },
+  //imagem 5
+  "image#agilidade": {
+    "props": {
+      "src": "assets/tecnologia-de-internet-em-nuvem.jpg",
+      "alt": "tecnologia-de-internet-em-nuvem",
+      "maxWidth": "100%",
+      "blockClass": "imageValores"
+    }
+  },
+  //6 slider 1 coluna de texto 1 coluna com imagem
+  "flex-layout.row#slider6": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "slidersValores"
+    },
+    "children": [
+      "flex-layout.col#slider6-col1",
+      "flex-layout.col#slider6-col2"
+    ]
+  },
+  //insere as linhas de texto na primeira coluna
+  "flex-layout.col#slider6-col1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "CENTER",
+      "blockClass": "nossodia"
+    },
+    "children": [
+      "flex-layout.row#nossodia"
+    ]
+  },
+  "flex-layout.row#nossodia": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "nossodia"
+    },
+    "children": [
+      "rich-text#nossodia"
+    ]
+  },
+  //texto agilidade
+  "rich-text#nossodia": {
+    "props": {
+      "text": "**Nosso dia a dia**\n* **Somos xóvens** - A gente é na maioria um povo beeeeem descolado e trazemos isso na nossa cultura e na forma como nos comunicamos com o time.\n* **Gostamos de um agito** - A gente AMA uma festa e mesmo remotos, não deixamos essa vibe sumir. Então não se surpreenda em ouvir o hit do momento durante nossos encontros. Com certeza você vai curtir os concursos e atividades temáticas que rolam por aqui ;)\n* **Demo Friday e All Hands** - Mesmo distante estamos juntos <3 Temos dois encontros gerais para matar a saudade dos amigos, compartilhar conhecimento e ficar por dentro das novidades da nossa empresa!\n* **Somos ágeis** - Curtimos muito fazer aquela entrega no prazo, mas com valor agregado para o cliente. E por isso usamos e abusamos de metodologias ágeis.",
+      "textPosition": "LEFT",
+      "font": "t-heading-6",
+      "blockClass": "nossodia"
+    }
+  },
+  //insere imagem da segunda coluna
+  "flex-layout.col#slider6-col2": {
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "nossodia"
+    },
+    "children": [
+      "image#nossodia"
+    ]
+  },
+  //imagem 6
+  "image#nossodia": {
+    "props": {
+      "src": "assets/institutionalImage.png",
+      "alt": "institutionalImage",
+      "maxWidth": "100%",
+      "blockClass": "imageValores"
     }
   },
   //bloco da pergunta
   "flex-layout.row#why": {
     "props": {
-      "marginTop": 10
+      "blockClass": "why"
     },
     "children": [
       "rich-text#why"
@@ -288,7 +556,8 @@
   //bloco de declaração das imagems e textos de resposta
   "flex-layout.row#reasons": {
     "props": {
-      "blockClass": "reasons"
+      "blockClass": "reasons",
+      "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.col#1",
@@ -299,30 +568,50 @@
     ]
   },
   "flex-layout.col#1": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    },
     "children": [
       "flex-layout.row#why-image1",
       "flex-layout.row#why-text1"
     ]
   },
   "flex-layout.col#2": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    },
     "children": [
       "flex-layout.row#why-image2",
       "flex-layout.row#why-text2"
     ]
   },
   "flex-layout.col#3": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    },
     "children": [
       "flex-layout.row#why-image3",
       "flex-layout.row#why-text3"
     ]
   },
   "flex-layout.col#4": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    },
     "children": [
       "flex-layout.row#why-image4",
       "flex-layout.row#why-text4"
     ]
   },
   "flex-layout.col#5": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    },
     "children": [
       "flex-layout.row#why-image5",
       "flex-layout.row#why-text5"
@@ -332,7 +621,8 @@
   //col 1
   "flex-layout.row#why-image1": {
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "why"
     },
     "children": [
       "image#col1"
@@ -343,7 +633,7 @@
       "src": "assets/icon_dashboard.png",
       "alt": "",
       "maxWidth": "20%",
-      "blockClass": "iconTrusted"
+      "blockClass": "iconReasons"
     }
   },
   "flex-layout.row#why-text1": {
@@ -359,13 +649,14 @@
       "text": "Engenharia de Dados de Alta Complexidade",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-6"
     }
   },
   //col 2
   "flex-layout.row#why-image2": {
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "why"
     },
     "children": [
       "image#col2"
@@ -376,7 +667,7 @@
       "src": "assets/icon_development.png",
       "alt": "",
       "maxWidth": "20%",
-      "blockClass": "iconTrusted"
+      "blockClass": "iconReasons"
     }
   },
   "flex-layout.row#why-text2": {
@@ -392,13 +683,14 @@
       "text": "Habilidades Técnicas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-6"
     }
   },
   //col 3
   "flex-layout.row#why-image3": {
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "why"
     },
     "children": [
       "image#col3"
@@ -409,7 +701,7 @@
       "src": "assets/icon_integration.png",
       "alt": "",
       "maxWidth": "20%",
-      "blockClass": "iconTrusted"
+      "blockClass": "iconReasons"
     }
   },
   "flex-layout.row#why-text3": {
@@ -425,13 +717,14 @@
       "text": "Líder de Mercado em Implementações VTEX IO",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-6"
     }
   },
   //col 4
   "flex-layout.row#why-image4": {
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "why"
     },
     "children": [
       "image#col4"
@@ -442,7 +735,7 @@
       "src": "assets/icon_customer-service.png",
       "alt": "",
       "maxWidth": "20%",
-      "blockClass": "iconTrusted"
+      "blockClass": "iconReasons"
     }
   },
   "flex-layout.row#why-text4": {
@@ -458,13 +751,14 @@
       "text": "Excelente Suporte ao Cliente",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-6"
     }
   },
   //col 5
   "flex-layout.row#why-image5": {
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "why"
     },
     "children": [
       "image#col5"
@@ -475,7 +769,7 @@
       "src": "assets/icon_shield.png",
       "alt": "",
       "maxWidth": "20%",
-      "blockClass": "iconTrusted"
+      "blockClass": "iconReasons"
     }
   },
   "flex-layout.row#why-text5": {
@@ -491,7 +785,7 @@
       "text": "Segurança e Confiabilidade",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-6"
     }
   },
   /*
@@ -499,7 +793,8 @@
   */
   "flex-layout.row#trustedby": {
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "trustedby"
     },
     "children": [
       "rich-text#trustedby"

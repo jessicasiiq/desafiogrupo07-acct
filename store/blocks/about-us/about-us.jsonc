@@ -14,8 +14,8 @@
         Blocos que exibem os clientes e colaboradores
       */
       "flex-layout.row#trustedby",
-      "flex-layout.row#Icons1",
-      "flex-layout.row#Icons2",
+      "slider-layout#topIcons",
+      "slider-layout#bottomIcons",
       "rich-text#time",
       "rich-text#h4",
       "slider-layout#time"

@@ -1,9 +1,15 @@
 /*
-    Texto Projetando o futuro do come´rcio digital
+    Texto Projetando o futuro do comércio digital
 */
-.paragraph--projetando{
-    color: black;
-    font-size: 50px;
+
+.container--projetando{
+    font-size: 2rem;
+    color: #040404;
+    margin: 0.75rem 0 1.2rem 0;
+    line-height: 1.4;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 
 /*
@@ -12,7 +18,7 @@
 .paragraph--sobre-nos{
     color: white;
     height: 20vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-left: 5vw;
     margin-bottom: 0px;
     margin-right: 0px;
@@ -21,12 +27,18 @@
 /*
     Customização dos títulos; ex.: "Trusted by_" e "Time_"
 */
+.container--subtitle{
+    margin: 40px;
+}
+
 .wrapper--subtitle{
     font-size: 2rem;
     color: #040404;
     margin: 0.75rem 0 1.5rem 0;
     line-height: 1.4;
     font-weight: bold;
+    margin-top: 130px;
+    padding-top: 2px;
 }
 
 /*
@@ -56,11 +68,28 @@
     text-align: center;
     align-items: center;
 }
+
+.paragraph--bemvindo{
+    font-size: 0.8rem;
+}
+/*
+    texto buscamos
+*/
+.paragraph--buscamos{
+    padding-top:95px;
+}
+
+.paragraph--assunto{
+    padding-top:195px;
+}
+
 /*
     Customização do paragraph dos títulos; ex.: "Trusted by_"
 */
 .paragraph--subtitle{
     font-family: "Roboto" !important;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 
 /*

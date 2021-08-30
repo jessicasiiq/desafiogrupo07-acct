@@ -10,3 +10,9 @@
     display: flex;
     justify-content: center;
 }
+
+.gallery--grid{
+    padding-top: 0px;
+    padding-bottom: 45px;
+    margin-top: 2px;
+}

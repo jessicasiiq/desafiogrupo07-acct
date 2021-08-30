@@ -1,4 +1,22 @@
 /*
+    header
+*/
+.flexRow--header{
+    background-color: #ffffff;
+    padding: 2px;
+}
+
+/*
+    saiba mais
+*/
+.flexRow--saibamais{
+    margin-top: 110px;
+    margin-left: 37%;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
     banner sobre nós
 */
 .flexRow--banner{
@@ -7,12 +25,42 @@
 }
 
 /*
-.flexColChild--imageslide1{
+    slide valores
+*/
+.flexRow--slidersValores{
+    margin: 40px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.flexCol--somos{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.flexColChild--image-about-us{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+/*
+    projetando
+*/
+.flexRowContent--projetando{
+    margin: 40px;
+    align-items: center;
     justify-content: center;
 }
+
+/*
+    why and reasons
 */
+.flexRow--why{
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
 
 /*
     COMEÇO CUSTOMIZAÇÃO LINHAS
@@ -23,7 +71,14 @@
     flex-basis: 90%;
 }
 
-.flexRowContent{
+/*
+    trusted by
+*/
+.flexRow--trustedby{
+    margin-top: 20px;
+}
+
+.flexRowContent--icon1{
    justify-content: center;
    max-width: 90%;
    margin-right: auto;
@@ -32,7 +87,7 @@
 
 .flexRowContent--icons2{
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
  }
  /*
     FIM CUSTOMIZAÇÃO LINHAS

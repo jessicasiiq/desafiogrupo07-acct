@@ -1,5 +1,5 @@
 {
-  "store.home#home": {
+  "store.home": {
     "blocks": [
       "slider-layout#home",
       "flex-layout.row#buscamoslideranca",

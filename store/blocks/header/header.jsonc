@@ -31,7 +31,8 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "marginTop": 3
+      "marginTop": 3,
+      "blockClass":"header"
     },
     "children": [
       "flex-layout.col#logo-desktop",

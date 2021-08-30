@@ -5,6 +5,12 @@
     text-decoration-color: gold;
 }
 
+.infoCardHeadline{
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 25px;
+}
+
 /*
     Customização das imagens do slider valores
 */

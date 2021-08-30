@@ -41,6 +41,16 @@
     padding-top: 2px;
 }
 
+.wrapper--why{
+    font-size: 2rem;
+    color: #040404;
+    margin: 0.75rem 0 1.5rem 0;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 130px;
+    padding-top: 2px;
+}
+
 /*
     Customização da legenda, aquela frase após o "Time_" na pagina "Sobre nós"
 */

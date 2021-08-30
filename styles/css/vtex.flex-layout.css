@@ -28,7 +28,7 @@
     slide valores
 */
 .flexRow--slidersValores{
-    margin: 40px;
+    margin: 200px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    height: 400px !important;
 }
 .flexColChild--image-about-us{
     display: flex;

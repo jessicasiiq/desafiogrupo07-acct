@@ -14,7 +14,8 @@
 
 ​				🔹 **Campos de criação →** *[nome, email, telefone, jaCliente, dataCadastro, dataPrimeiraCompra]*. ➡️ Pedir pelo cadastro **nome**, **e-mail**
 
-​				🔸 ***Endpoints* utilizados →** ***GET***, ***POST***, ***PUT*** e ***DELETE***.
+​				🔸 ***Endpoints* utilizados →** [***GET***, ***POST***, ***PUT*** e ***DELETE***]. ➡️ Criados nos serviços ***AWS*** que serão invocados pelas *APIs* para captação de *lead* e identificação de clientes e prospectos.
+
 
 ​				🔹 ***Front-end →*** Temática ACCT
 

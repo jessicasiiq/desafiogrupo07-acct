@@ -2,7 +2,7 @@
 
 ~Desenvolvimento do quarto desafio *web*, efetuado em grupo ➡️ uma página *e-commerce* (utilizando ***VTEX IO***) para o **desafio #4** (final // 3ª fase) da trilha ***Hiring Coders*** (***Gama Academy*** + ***VTEX***).
 
-🟣**Equipe do projeto:** Grupo 07 [jessicasiiq, joohnsro, mvmedeiros, TheVipZo123, Jefferson-William-Alves, alecio-junior]
+🟣**Equipe do projeto:** Grupo 07 [jessicasiiq, joohnsro, mvmedeiros, TheVipZo123, Jefferson-William-Alves, alecio-junior, maisnerfaria].
 
 🟢**Temática de *front-end* recebida:** *ACCT* → (https://acct.global/pt/).
 

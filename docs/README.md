@@ -17,8 +17,10 @@
 ​				🔹 ***Front-end →*** Temática ACCT
 
 ✅ Página *home* [logo e cores da ***ACCT***, lista de produtos cadastrados]: 
+![PAGINAINICIAL](https://user-images.githubusercontent.com/72312529/131421252-826985b3-3bca-4355-bbe1-461dc247dca1.gif)
 
 ✅ Página sobre nós [virtudes do serviço da ***ACCT***, *trusted by* e time]:
+![SOBRENOS](https://user-images.githubusercontent.com/72312529/131421272-4c05976d-f6d1-44d3-b7a0-889746198058.gif)
 
 ✅ Página de cadastro:
 
